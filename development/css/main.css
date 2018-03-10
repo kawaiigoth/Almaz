@@ -1,0 +1,188 @@
+*,
+:before,
+:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngRUXZYTXPIvIBgJJSb6u9mxLCLwRg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngMUXZYTXPIvIBgJJSb6ufA5qA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngRUXZYTXPIvIBgJJSb6u92w7CLwRg.ttf) format('truetype');
+}
+html {
+  font-size: 16px;
+}
+.header-main {
+  width: 100%;
+  height: 600px;
+  background: url( '../images/hero_1.png' );
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-top: 64px;
+}
+.header-main__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 72px;
+  margin-bottom: 110px;
+}
+.header-main__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  height: 100%;
+  background-color: #fff;
+}
+.header-main__logo-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.header-main__navigation {
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.header-main__navigation-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+}
+.header-main__navigation-list li {
+  height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-main__navigation-list a {
+  display: block;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-family: 'Roboto Slab', Helvetica, Arial, serif;
+  /* Divide desired pixel value by base font size */
+  font-size: 17px;
+  font-size: 1.0625rem;
+  color: #666;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+.header-main__navigation-list a:hover {
+  background-color: #f15c2e;
+  color: #fff;
+}
+.header-main__phone {
+  width: 20%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-main__title {
+  width: 50%;
+}
+.header-main__title-header {
+  width: 90%;
+  font-family: 'Roboto Slab', Helvetica, Arial, serif;
+  color: #fff;
+  /* Divide desired pixel value by base font size */
+  font-size: 64px;
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+.header-main__title-rule {
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+.header-main__title-sub {
+  width: 66%;
+  font-family: 'Roboto Slab', Helvetica, Arial, serif;
+  color: #fff;
+  /* Divide desired pixel value by base font size */
+  font-size: 26px;
+  font-size: 1.625rem;
+  margin: 0;
+  padding: 0;
+}
+.phone {
+  font-family: 'Roboto Slab', Helvetica, Arial, serif;
+  color: #fff;
+}
+.phone__code {
+  font-weight: lighter;
+  /* Divide desired pixel value by base font size */
+  font-size: 24px;
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+.phone__number {
+  font-weight: bold;
+  /* Divide desired pixel value by base font size */
+  font-size: 48px;
+  font-size: 3rem;
+}

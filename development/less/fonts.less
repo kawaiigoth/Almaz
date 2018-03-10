@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&subset=cyrillic-ext');
+
+html{
+  font-size: 16px;
+}
+
+.getFont(){
+
+  font-family: 'Roboto Slab', Helvetica, Arial, serif;
+
+}
+
+.em(@sizeValue){
+  @pxValue: @sizeValue;
+  @remValue: (@sizeValue / 16); /* Divide desired pixel value by base font size */
+  font-size: ~"@{pxValue}px";
+  font-size: ~"@{remValue}rem";
+}
